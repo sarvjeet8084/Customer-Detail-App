@@ -7,7 +7,7 @@ def data_get():
     conn = mariadb.connect(
         host ="localhost",
         user ="root",
-        password ="Sarvjeet@123",
+        password ="",
         database ="chatraclg"
     )
     mycursor = conn.cursor()
@@ -45,7 +45,7 @@ def load_customers():
         conn = mariadb.connect(
             host="localhost",
             user="root",
-            password="Sarvjeet@123",
+            password="",
             database="chatraclg"
         )
         mycursor = conn.cursor()
